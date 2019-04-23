@@ -13,6 +13,7 @@ object Dependency {
 
   val cats = Seq(
     "org.typelevel" %% "cats-core" % Version.`cats-core`,
+    "org.typelevel" %% "cats-collections-core" % "0.7.0",
     "org.typelevel" %% "cats-effect" % Version.`cats-effect`)
 
   val http4s = Seq(
